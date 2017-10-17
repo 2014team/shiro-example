@@ -1,0 +1,4 @@
+com\github\shiro\realm\MyRealm.class
+com\github\shiro\permission\BitAndWildPermissionResolver.class
+com\github\shiro\permission\MyRolePermissionResolver.class
+com\github\shiro\permission\BitPermission.class
