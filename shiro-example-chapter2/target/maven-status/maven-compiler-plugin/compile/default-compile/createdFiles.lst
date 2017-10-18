@@ -1,6 +1,0 @@
-com\shiro\authenticator\strategy\AtLeastTwoAuthenticatorStrategy.class
-com\shiro\MyRealm1.class
-com\shiro\MyRealm4.class
-com\shiro\MyRealm2.class
-com\shiro\MyRealm3.class
-com\shiro\authenticator\strategy\OnlyOneAuthenticatorStrategy.class
