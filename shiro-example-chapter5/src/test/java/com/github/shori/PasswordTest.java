@@ -53,7 +53,6 @@ public class PasswordTest extends BaseTest{
         login("classpath:shiro-jdbc-hashedCredentialsMatcher.ini", "liu", "123");
     }
 
-
     private class EnumConverter extends AbstractConverter {
         @Override
         protected String convertToString(final Object value) throws Throwable {
