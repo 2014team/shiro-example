@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="shiro-example-chapter9 Maven Webapp"
+  id="myeclipse.1508485749614"
+  context-root="/shiro-example-chapter9"
+  j2ee-spec="6.0"
+  archive="shiro-example-chapter9 Maven Webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
