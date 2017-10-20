@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.github.shori.realm.UserRealmTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.178 sec
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.627 sec
