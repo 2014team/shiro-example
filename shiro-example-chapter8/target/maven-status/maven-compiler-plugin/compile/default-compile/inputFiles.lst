@@ -1,7 +1,0 @@
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\env\MyIniWebEnvironment.java
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\filter\MyOncePerRequestFilter.java
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\filter\MyAdviceFilter.java
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\filter\MyAccessControlFilter.java
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\filter\FormLoginFilter.java
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\filter\AnyRolesFilter.java
-E:\Workspaces\shiro-example\shiro-example-chapter8\src\main\java\com\github\shiro\web\filter\MyPathMatchingFilter.java

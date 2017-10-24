@@ -24,6 +24,7 @@
     <module>shiro-example-chapter8</module>
     <module>shiro-example-chapter9</module>
     <module>shiro-example-chapter10</module>
+    <module>shiro-example-chapter11</module>
   </modules>
   <dependencies>
     <dependency>

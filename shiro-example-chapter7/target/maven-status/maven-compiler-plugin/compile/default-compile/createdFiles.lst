@@ -1,7 +1,0 @@
-com\github\shori\web\servlet\RoleServlet.class
-com\github\shori\web\servlet\LoginServlet.class
-com\github\shori\web\servlet\UnAuthorizedServlet.class
-com\github\shori\web\servlet\PermissionServlet.class
-com\github\shori\web\servlet\LogoutServlet.class
-com\github\shori\web\servlet\FormFilterLoginServlet.class
-com\github\shori\web\servlet\AuthenticatedServlet.class
