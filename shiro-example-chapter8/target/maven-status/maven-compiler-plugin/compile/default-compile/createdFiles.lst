@@ -1,0 +1,7 @@
+com\github\shiro\web\env\MyIniWebEnvironment.class
+com\github\shiro\web\filter\AnyRolesFilter.class
+com\github\shiro\web\filter\MyAccessControlFilter.class
+com\github\shiro\web\filter\MyAdviceFilter.class
+com\github\shiro\web\filter\FormLoginFilter.class
+com\github\shiro\web\filter\MyPathMatchingFilter.class
+com\github\shiro\web\filter\MyOncePerRequestFilter.class
