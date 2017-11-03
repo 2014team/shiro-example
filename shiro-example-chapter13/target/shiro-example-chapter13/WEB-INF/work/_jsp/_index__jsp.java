@@ -64,23 +64,27 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
     int _jspEval6 = _jsp_GuestTag_0.doStartTag();
     if (_jspEval6 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       out.write(_jsp_string1, 0, _jsp_string1.length);
+      _caucho_expr_0.print(out, _jsp_env, false);
+      out.write(_jsp_string2, 0, _jsp_string2.length);
     }
     out.write('\n');
     _jsp_UserTag_1 = _jsp_state.get_jsp_UserTag_1(pageContext, _jsp_parent_tag);
     int _jspEval10 = _jsp_UserTag_1.doStartTag();
     if (_jspEval10 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
-      out.write(_jsp_string2, 0, _jsp_string2.length);
+      out.write(_jsp_string3, 0, _jsp_string3.length);
       _jsp_PrincipalTag_2 = _jsp_state.get_jsp_PrincipalTag_2(pageContext, _jsp_parent_tag);
       _jsp_PrincipalTag_2.doStartTag();
-      out.write(_jsp_string3, 0, _jsp_string3.length);
+      out.write(_jsp_string4, 0, _jsp_string4.length);
+      _caucho_expr_0.print(out, _jsp_env, false);
+      out.write(_jsp_string5, 0, _jsp_string5.length);
     }
     out.write('\n');
     _jsp_HasRoleTag_3 = _jsp_state.get_jsp_HasRoleTag_3(pageContext, _jsp_parent_tag);
     int _jspEval18 = _jsp_HasRoleTag_3.doStartTag();
     if (_jspEval18 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
-      out.write(_jsp_string4, 0, _jsp_string4.length);
+      out.write(_jsp_string6, 0, _jsp_string6.length);
     }
-    out.write(_jsp_string5, 0, _jsp_string5.length);
+    out.write(_jsp_string7, 0, _jsp_string7.length);
   }
 
   private com.caucho.make.DependencyContainer _caucho_depends
@@ -140,7 +144,7 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), 1878140940295664761L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), -5535003663311756175L, false);
     _caucho_depends.add(depend);
     depend = new com.caucho.vfs.Depend(mergePath.lookup("jar:file:/E:/Workspaces/shiro-example/shiro-example-chapter13/target/shiro-example-chapter13/WEB-INF/lib/shiro-web-1.2.2.jar!/META-INF/shiro.tld"), -6207406093825368018L, false);
     _caucho_depends.add(depend);
@@ -254,23 +258,29 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
       com.caucho.jsp.TaglibManager manager = webApp.getJspApplicationContext().getTaglibManager();
       manager.addTaglibFunctions(_jsp_functionMap, "shiro", "http://shiro.apache.org/tags");
       com.caucho.jsp.PageContextImpl pageContext = new com.caucho.jsp.InitPageContextImpl(webApp, this);
+      _caucho_expr_0 = com.caucho.jsp.JspUtil.createExpr(pageContext.getELContext(), "${pageContext.request.contextPath}");
     } catch (Exception e) {
       throw com.caucho.config.ConfigException.create(e);
     }
   }
+  private static com.caucho.el.Expr _caucho_expr_0;
 
-  private final static char []_jsp_string5;
+  private final static char []_jsp_string7;
   private final static char []_jsp_string0;
+  private final static char []_jsp_string5;
+  private final static char []_jsp_string6;
   private final static char []_jsp_string1;
-  private final static char []_jsp_string4;
-  private final static char []_jsp_string3;
   private final static char []_jsp_string2;
+  private final static char []_jsp_string3;
+  private final static char []_jsp_string4;
   static {
-    _jsp_string5 = "\n</body>\n</html>".toCharArray();
-    _jsp_string0 = "\n\n<html>\n<body>\n".toCharArray();
-    _jsp_string1 = "\n    \u6b22\u8fce\u6e38\u5ba2\u8bbf\u95ee\uff0c<a href=\"${pageContext.request.contextPath}/login.jsp\">\u70b9\u51fb\u767b\u5f55</a><br/>\n".toCharArray();
-    _jsp_string4 = "\n    \u60a8\u6709\u89d2\u8272admin\n".toCharArray();
-    _jsp_string3 = "]\u767b\u5f55\uff0c<a href=\"${pageContext.request.contextPath}/logout\">\u70b9\u51fb\u9000\u51fa</a><br/>\n".toCharArray();
-    _jsp_string2 = "\n    \u6b22\u8fce[".toCharArray();
+    _jsp_string7 = "\n</body>\n</html>".toCharArray();
+    _jsp_string0 = "\n\n\n<html>\n<body>\n".toCharArray();
+    _jsp_string5 = "/logout\">\u70b9\u51fb\u9000\u51fa</a><br/>\n".toCharArray();
+    _jsp_string6 = "\n    \u60a8\u6709\u89d2\u8272admin\n".toCharArray();
+    _jsp_string1 = "\n    \u6b22\u8fce\u6e38\u5ba2\u8bbf\u95ee\uff0c<a href=\"".toCharArray();
+    _jsp_string2 = "/login.jsp\">\u70b9\u51fb\u767b\u5f55</a><br/>\n".toCharArray();
+    _jsp_string3 = "\n    \u6b22\u8fce[".toCharArray();
+    _jsp_string4 = "]\u767b\u5f55\uff0c<a href=\"".toCharArray();
   }
 }
