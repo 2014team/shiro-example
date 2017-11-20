@@ -28,6 +28,8 @@
     <module>shiro-example-chapter12</module>
     <module>shiro-example-chapter13</module>
     <module>shiro-example-chapter14</module>
+    <module>shiro-example-chapter15-server</module>
+    <module>shiro-example-chapter15-client</module>
   </modules>
   <dependencies>
     <dependency>

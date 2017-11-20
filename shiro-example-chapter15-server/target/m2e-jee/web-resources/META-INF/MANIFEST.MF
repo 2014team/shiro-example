@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Jasig
+Implementation-Title: shiro-example-chapter15-server
+Implementation-Version: 4.0.0-RC3
+Implementation-Vendor-Id: org.jasig.cas
+Specification-Vendor: Jasig
+Build-Jdk: 1.6.0_13
+Built-By: zhuzq
+Created-By: Maven Integration for Eclipse
+Specification-Title: shiro-example-chapter15-server
+Specification-Version: 4.0.0-RC3
+
