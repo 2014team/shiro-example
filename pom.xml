@@ -31,6 +31,8 @@
     <module>shiro-example-chapter15-server</module>
     <module>shiro-example-chapter15-client</module>
     <module>shiro-example-chapter16</module>
+    <module>shiro-example-chapter17-client</module>
+    <module>shiro-example-chapter17-server</module>
   </modules>
   <dependencies>
     <dependency>

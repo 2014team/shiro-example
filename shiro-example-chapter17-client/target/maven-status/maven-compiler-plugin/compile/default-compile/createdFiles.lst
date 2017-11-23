@@ -1,0 +1,7 @@
+com\github\shiro\chapter17\filter\MyShiroFilterFactoryBean$MySpringShiroFilter.class
+com\github\shiro\chapter17\oauth2\OAuth2Token.class
+com\github\shiro\chapter17\oauth2\OAuth2AuthenticationException.class
+com\github\shiro\chapter17\filter\MyShiroHttpServletResponse.class
+com\github\shiro\chapter17\filter\MyShiroFilterFactoryBean.class
+com\github\shiro\chapter17\oauth2\OAuth2Realm.class
+com\github\shiro\chapter17\oauth2\OAuth2AuthenticationFilter.class

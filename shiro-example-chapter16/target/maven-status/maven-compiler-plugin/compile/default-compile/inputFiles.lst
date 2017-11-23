@@ -16,6 +16,7 @@ E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shi
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\web\controller\ResourceController.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\dao\impl\ResourceDaoImpl.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\service\UserService.java
+E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\web\shiro\filter\MyShiroHttpServletResponse.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\web\controller\RoleController.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\service\impl\UserServiceImpl.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\dao\OrganizationDao.java
@@ -31,6 +32,7 @@ E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shi
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\utils\PasswordHelper.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\dao\UserDao.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\entity\Role.java
+E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\web\shiro\filter\MyShiroFilterFactoryBean.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\entity\Organization.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\spring\SpringCacheManagerWrapper.java
 E:\Workspaces\shiro-example\shiro-example-chapter16\src\main\java\com\github\shiro\chapter16\dao\impl\UserDaoImpl.java
