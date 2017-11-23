@@ -75,16 +75,14 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
       _jsp_PrincipalTag_2 = _jsp_state.get_jsp_PrincipalTag_2(pageContext, _jsp_parent_tag);
       _jsp_PrincipalTag_2.doStartTag();
       out.write(_jsp_string4, 0, _jsp_string4.length);
-      _caucho_expr_0.print(out, _jsp_env, false);
-      out.write(_jsp_string5, 0, _jsp_string5.length);
     }
     out.write('\n');
     _jsp_HasRoleTag_3 = _jsp_state.get_jsp_HasRoleTag_3(pageContext, _jsp_parent_tag);
     int _jspEval18 = _jsp_HasRoleTag_3.doStartTag();
     if (_jspEval18 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
-      out.write(_jsp_string6, 0, _jsp_string6.length);
+      out.write(_jsp_string5, 0, _jsp_string5.length);
     }
-    out.write(_jsp_string7, 0, _jsp_string7.length);
+    out.write(_jsp_string6, 0, _jsp_string6.length);
   }
 
   private com.caucho.make.DependencyContainer _caucho_depends
@@ -144,7 +142,7 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), 4829927704777215664L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), -8501858574707297481L, false);
     _caucho_depends.add(depend);
     depend = new com.caucho.vfs.Depend(mergePath.lookup("jar:file:/E:/Workspaces/shiro-example/shiro-example-chapter17-client/target/shiro-example-chapter17-client/WEB-INF/lib/shiro-web-1.2.2.jar!/META-INF/shiro.tld"), -6207406093825368018L, false);
     _caucho_depends.add(depend);
@@ -266,20 +264,18 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
   private static com.caucho.el.Expr _caucho_expr_0;
 
   private final static char []_jsp_string0;
-  private final static char []_jsp_string6;
-  private final static char []_jsp_string4;
-  private final static char []_jsp_string7;
-  private final static char []_jsp_string1;
   private final static char []_jsp_string5;
+  private final static char []_jsp_string6;
+  private final static char []_jsp_string1;
+  private final static char []_jsp_string4;
   private final static char []_jsp_string2;
   private final static char []_jsp_string3;
   static {
     _jsp_string0 = "\n\n\n<html>\n<body>\n".toCharArray();
-    _jsp_string6 = "\n    \u60a8\u6709\u89d2\u8272admin\n".toCharArray();
-    _jsp_string4 = "]\u767b\u5f55<br/>\n<a href=\"".toCharArray();
-    _jsp_string7 = "\n</body>\n</html>\n".toCharArray();
+    _jsp_string5 = "\n    \u60a8\u6709\u89d2\u8272admin\n".toCharArray();
+    _jsp_string6 = "\n</body>\n</html>\n".toCharArray();
     _jsp_string1 = "\n    \u6b22\u8fce\u6e38\u5ba2\u8bbf\u95ee\uff0c<a href=\"".toCharArray();
-    _jsp_string5 = "/logout\">\u767b\u5f55</a>\n".toCharArray();
+    _jsp_string4 = "]\u767b\u5f55<br/>\n".toCharArray();
     _jsp_string2 = "/oauth2-login\">\u70b9\u51fb\u767b\u5f55</a><br/>\n".toCharArray();
     _jsp_string3 = "\n    \u6b22\u8fce[".toCharArray();
   }
